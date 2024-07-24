@@ -37,7 +37,7 @@ public class Launchchrome {
         WebElement loginButton = driver.findElement(By.name("login"));
         loginButton.click();
         Thread.sleep(2000);
-        // Quit the driver
+        
         driver.close();
     }
 }
